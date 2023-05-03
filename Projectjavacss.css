@@ -1,0 +1,145 @@
+nav
+    {
+        margin-top: 0.2%;
+        background-color: black;
+
+    }
+    nav a
+    {
+        font-size: large;
+        text-decoration: none;
+        color: white;
+        margin-left: 3%;
+        font-family: 'Poppins', sans-serif;
+        transition: all 0.5s ease-in-out;
+    }
+    nav a:hover
+    {
+        font-size: larger;
+        color: red;
+        transition: all 0.5s ease-in-out;
+    }
+    .td1
+    {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width:100%;
+        border : 3px solid transparent;
+        border-image: linear-gradient(45deg, lime, dodgerblue);
+        border-image-slice: 1;
+    }
+    .r1
+    {
+        color: white;
+        width: 100%;
+        height: 8%;
+        background: linear-gradient(135deg, purple 45%, black 50%);
+        font-family: 'Oswald', sans-serif;
+    }
+    .r2
+    {
+        font-size: large;
+        width: 100%;
+        height: 100%;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        text-indent: 15%;
+    }
+    .r3
+    {
+        font-size: large;
+        font-family: 'Poppins', sans-serif;
+    }
+    .i1
+    {
+        height: 45%;
+        width: 40%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: block;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 1px 1px 2px 2px silver;
+    }
+    .i1:hover
+    {
+        height: 80%;
+        width: 50%;
+        transform: translate(-3%, -3%);
+        transition: all 0.5s ease-in-out;
+    }
+    /*Data division*/
+    .data
+    {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 5%;
+        transition: all 0.5s ease-in-out;
+    }
+    /*Sub division-1*/
+    .data .im, .des
+    {
+        vertical-align: top;
+        display: inline-block;
+        height: 100%;
+        width: 40%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
+        transition: all 0.5s ease-in-out;
+        text-align: left;
+        font-size: medium;
+        font-family: 'Poppins', sans-serif;
+        box-shadow: 1px 1px 2px 2px silver;
+    }
+    .des
+    {
+        text-indent: 10%;
+    }
+    .data .im:hover
+    {
+        transform: translate(-4%, -2%);
+        transition: all 0.5s ease-in-out;
+    }
+    .data .des:hover
+    {
+        transform: translate(-4%, -2%);
+        color: red;
+        transition: all 0.5s ease-in-out;
+    }
+    img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .r3 span
+    {
+        text-decoration:underline;
+        font-size: x-large;
+        color: red;
+    }
+    /*Hr*/
+    .hs
+    {
+        width: 100%;
+        height: 0.25%;
+        background-color: silver;
+        margin-bottom: 5%;
+    }
+    .hi
+    {
+        width: 90%;
+        height: 1px;
+        background-color: black;
+    }
+    .end
+    {
+        color: white;
+        text-align: center;
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+        height: 30%;
+        background: linear-gradient(45deg, lime, dodgerblue);
+    }
